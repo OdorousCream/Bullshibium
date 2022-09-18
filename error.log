@@ -1,0 +1,232 @@
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 526, in bootstrap
+    choices = re.findall("(?:(p|s)[:]([0-9]+[.][0-9]+[.][0-9]+[.][0-9]+)[:]([0-9]+))+\s?", choices)
+  File "/usr/local/lib/python3.10/re.py", line 240, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: cannot use a string pattern on a bytes-like object
+ <class 'TypeError'> net.py 526 cannot use a string pattern on a bytes-like object
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 526, in bootstrap
+    choices = re.findall("(?:(p|s)[:]([0-9]+[.][0-9]+[.][0-9]+[.][0-9]+)[:]([0-9]+))+\s?", choices)
+  File "/usr/local/lib/python3.10/re.py", line 240, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: cannot use a string pattern on a bytes-like object
+ <class 'TypeError'> net.py 526 cannot use a string pattern on a bytes-like object
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 825, in stop
+    raise Exception("Process was interrupted.")
+Exception: Process was interrupted.
+ <class 'Exception'> sock.py 195 Process was interrupted.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+ <class 'ConnectionRefusedError'> sock.py 195 [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/net.py", line 444, in add_node
+    con = Sock(node_ip, node_port, blocking=0,
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 90, in __init__
+    self.connect(addr, port)
+  File "/home/arkantos/.local/share/virtualenvs/Final-75G4pBwJ/lib/python3.10/site-packages/pyp2p/sock.py", line 203, in connect
+    raise socket.error("Socket connect failed.")
+OSError: Socket connect failed.
+ <class 'OSError'> net.py 444 Socket connect failed.
