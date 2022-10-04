@@ -25,7 +25,7 @@ class Networker:
             print(f"Connected by {addr}")
             self.connected = True
             while True:
-                msg = self.recv_msg(self.conn_socket)
+                msg = self.recv_msg()
                 if not msg:
                     break
                 self.handle_msg(msg, addr, state)
@@ -33,7 +33,7 @@ class Networker:
             addr = self.socket.getpeername()
             print(f"Connected by {addr}")
             while True:
-                msg = self.recv_msg(self.socket)
+                msg = self.recv_msg()
                 if not msg:
                     break
                 self.handle_msg(msg, addr, state)
@@ -62,14 +62,14 @@ class Networker:
         message = pickle.dumps((kind, msg))
         self.send_msg(message)
     
-    def recv_msg(self, sock):
+    def recv_msg(self):
         # Read message length and unpack it into an integer
-        raw_msglen = self.recvall(sock, 4)
+        raw_msglen = self.recvall(self.conn_socket, 4)
         if not raw_msglen:
             return None
         msglen = struct.unpack('>I', raw_msglen)[0]
         # Read the message data
-        return self.recvall(sock, msglen)
+        return self.recvall(self.conn_socket, msglen)
 
     def recvall(self, sock, n):
         # Helper function to recv n bytes or return None if EOF is hit
