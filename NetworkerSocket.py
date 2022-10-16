@@ -17,21 +17,16 @@ class Networker:
         self.ips = ["192.168.122.75"] #, "192.168.122.135"]
     
     def listen(self, state):
-        if not self.connected:
-            self.socket_lsn.bind(('', 65432))
-            self.socket_lsn.listen()
-            self.socket_rcv, addr = self.socket_lsn.accept()
-            # with conn:
-            print(f"Connected by {addr}")
-            self.connected = True
-            while True:
-                msg = self.recv_msg()
-                if not msg:
-                    break
-                self.handle_msg(msg, addr, state)
-        else:
-            addr = self.socket.getpeername()
-            print(f"Connected by {addr}")
+        while True:
+            if not self.connected:
+                self.socket_lsn.bind(('', 65432))
+                self.socket_lsn.listen()
+                self.socket_rcv, addr = self.socket_lsn.accept()
+                print(f"Connected by {addr}")
+                self.connected = True
+            else:
+                addr = self.socket_rcv.getpeername()
+                print(f"Receive failed, still connected to {addr}")
             while True:
                 msg = self.recv_msg()
                 if not msg:
